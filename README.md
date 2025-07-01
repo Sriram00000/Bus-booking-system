@@ -49,6 +49,11 @@ Edit
 - 📊 View list of all registered users, conductors, and bookings
 - 📈 Monitor system logs, QR generation stats, and active routes
 
+- ``` {
+  "email": "admin@bus.com",
+  "password": "admin123"
+- Only one pre admin as of now to approve the conductor for scanning ticket.
+
 ---
 
 ### 📷 QR Code Ticketing
