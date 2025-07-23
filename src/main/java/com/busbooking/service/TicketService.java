@@ -31,6 +31,7 @@ public class TicketService {
         }
 
         BusRoute route = matchedRouteOpt.get();
+        
 
         if (route.getStops() == null || route.getStops().isEmpty()) {
             return ResponseEntity.badRequest().body(null);
